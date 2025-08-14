@@ -18,7 +18,7 @@ export default function Navbar(){
         <div className="flex items-center space-x-3">
           <div className="h-10 w-10 rounded-full bg-gradient-to-br from-sky-400 to-cyan-400 flex items-center justify-center text-black font-bold">AD</div>
           <div>
-            <NavLink to="/about" className="text-xl font-semibold">Aswini</NavLink>
+            <NavLink to="/PORTFLIO/about" className="text-xl font-semibold">Aswini</NavLink>
             <div className="text-sm text-gray-300">Web Developer</div>
           </div>
         </div>
@@ -35,7 +35,7 @@ export default function Navbar(){
 
         {/* actions */}
         <div className="hidden md:flex items-center space-x-4">
-          <a href="/Aswinii.pdf" className="px-4 py-2 rounded-md bg-gradient-to-r from-sky-400 to-cyan-400 text-black font-semibold">Resume</a>
+          <a href="/PORTFLIO/Aswinii.pdf" className="px-4 py-2 rounded-md bg-gradient-to-r from-sky-400 to-cyan-400 text-black font-semibold">Resume</a>
         </div>
 
         {/* Mobile menu button */}
@@ -54,7 +54,7 @@ export default function Navbar(){
               {l.label}
             </NavLink>
           ))}
-          <a href="/Aswinii.pdf" className="block mt-2 px-3 py-2 rounded-md bg-gradient-to-r from-sky-400 to-cyan-400 text-black font-semibold">Resume</a>
+          <a href="/PORTFLIO/Aswinii.pdf" className="block mt-2 px-3 py-2 rounded-md bg-gradient-to-r from-sky-400 to-cyan-400 text-black font-semibold">Resume</a>
         </div>
       </div>
     </header>

@@ -8,20 +8,20 @@ const Projects = () => {
     {
       id: 1,
       title: "ORGANZE",
-      image: "/portfolio1.jpg",
-      link: "/portfolio/1",
+      image: "/PORTFLIO/portfolio1.jpg",
+      link: "/PORTFLIO/portfolio/1",
     },
     {
       id: 2,
       title: "Smart Watch",
-      image: "/portfolio2.jpg",
-      link: "/portfolio/2",
+      image: "/PORTFLIO/portfolio2.jpg",
+      link: "/PORTFLIO/portfolio/2",
     },
     {
       id: 3,
       title: "Cosmetic Packaging",
-      image: "/portfolio3.jpg",
-      link: "/portfolio/3",
+      image: "/PORTFLIO/portfolio3.jpg",
+      link: "/PORTFLIO/portfolio/3",
     },
   ];
   return (

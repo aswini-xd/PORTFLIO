@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { FaEye, FaLink } from "react-icons/fa";
 
 const About = () => {
-  const images = ["/bg-2.jpg", "/icon-2.webp", "/img-1.jpg"];
+  const images = ["/PORTFLIO/bg-2.jpg", "/PORTFLIO/icon-2.webp", "/PORTFLIO/img-1.jpg"];
 
   const skills = [
     { name: "HTML", percent: 100 },
@@ -19,20 +19,20 @@ const About = () => {
     {
       id: 1,
       title: "ORGANZE",
-      image: "/portfolio1.jpg",
-      link: "/portfolio/1",
+      image: "/PORTFLIO/portfolio1.jpg",
+      link: "/PORTFLIO/portfolio/1",
     },
     {
       id: 2,
       title: "Smart Watch",
-      image: "/portfolio2.jpg",
-      link: "/portfolio/2",
+      image: "/PORTFLIO/portfolio2.jpg",
+      link: "/PORTFLIO/portfolio/2",
     },
     {
       id: 3,
       title: "Cosmetic Packaging",
-      image: "/portfolio3.jpg",
-      link: "/portfolio/3",
+      image: "/PORTFLIO/portfolio3.jpg",
+      link: "/PORTFLIO/portfolio/3",
     },
   ];
 
@@ -41,43 +41,43 @@ const About = () => {
       text: "Aswini is always so creative and dedicated. I’ve seen the effort he puts into his work, and it’s truly inspiring.",
       name: "Himanshu Mishra",
       role: "Designer",
-      image: "/himanshu.jpg",
+      image: "/PORTFLIO/himanshu.jpg",
     },
     {
       text: "Working with him was smooth and enjoyable. He listens carefully and brings ideas to life beautifully.",
       name: "Sikharani Tada",
       role: "Friend",
-      image: "/sikha.jpg",
+      image: "/PORTFLIO/sikha.jpg",
     },
     {
       text: "He’s always patient and ready to help. You can count on him to get things done the right way.",
       name: "Puja Dash",
       role: "Freelancer",
-      image: "/puja.jpg",
+      image: "/PORTFLIO/puja.jpg",
     },
     {
       text: "Aswini has a very clear way of explaining things, which makes teamwork so much easier.",
       name: "Babu sahoo",
       role: "Engineer",
-      image: "/babu.jpg",
+      image: "/PORTFLIO/babu.jpg",
     },
     {
       text: "A hardworking friend who never gives up until the job is done perfectly. Respect for his discipline!",
       name: "Priyanka jena",
       role: "Developer",
-      image: "/priyanka.jpg",
+      image: "/PORTFLIO/priyanka.jpg",
     },
     {
       text: "Always positive and full of energy. He brings a friendly vibe to every project he’s part of.",
       name: "Mama paikaray",
       role: "Student",
-      image: "/mana.jpg",
+      image: "/PORTFLIO/mana.jpg",
     },
     {
       text: "His designs are neat, modern, and very user-friendly. I’m always impressed by his attention to detail.",
       name: "Debashis Lala",
       role: "Freelancer",
-      image: "/lala.jpg",
+      image: "/PORTFLIO/lala.jpg",
     },
   ];
 
@@ -173,7 +173,7 @@ const About = () => {
               help?
             </p>
             <a
-              href="/Aswinii.pdf"
+              href="/PORTFLIO/Aswinii.pdf"
               className="px-4 py-2 rounded-md bg-gradient-to-r from-sky-400 to-cyan-400 text-black font-semibold"
             >
               Download Resume
@@ -223,7 +223,7 @@ const About = () => {
           {/* Left Image */}
           <div className="flex-1">
             <img
-              src="/icon.jpeg"
+              src="/PORTFLIO/icon.jpeg"
               alt="Profile"
               className="rounded-lg h-[500px] w-[400px] object-cover"
             />

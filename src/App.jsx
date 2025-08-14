@@ -24,12 +24,12 @@
 //       <div className="min-h-screen text-white">
 //         <Navbar/>
 //         <Routes>
-//           <Route path="/about" element={<About/>} />
-//           <Route path="/skills" element={<Skills/>} />
-//           <Route path="/projects" element={<Projects/>} />
-//           <Route path="/blog" element={<Blog/>} />
-//           <Route path="/contact" element={<Contact/>} />
-//           <Route path="/" element={<About/>} />
+//           <Route path="/PORTFLIO/about" element={<About/>} />
+//           <Route path="/PORTFLIO/skills" element={<Skills/>} />
+//           <Route path="/PORTFLIO/projects" element={<Projects/>} />
+//           <Route path="/PORTFLIO/blog" element={<Blog/>} />
+//           <Route path="/PORTFLIO/contact" element={<Contact/>} />
+//           <Route path="/PORTFLIO/" element={<About/>} />
 //         </Routes>
 //       </div>
 //     </Router>
@@ -53,13 +53,13 @@ const App = () => {
     <div className="min-h-screen text-white">
       <Navbar />
       <Routes>
-        <Route path="/" element={<About />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/testi" element={<Testi />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/portfolio/:id" element={<PortfolioDetails/>} />
+        <Route path="/PORTFLIO/" element={<About />} />
+        <Route path="/PORTFLIO/about" element={<About />} />
+        <Route path="/PORTFLIO/skills" element={<Skills />} />
+        <Route path="/PORTFLIO/projects" element={<Projects />} />
+        <Route path="/PORTFLIO/testi" element={<Testi />} />
+        <Route path="/PORTFLIO/contact" element={<Contact />} />
+        <Route path="/PORTFLIO/portfolio/:id" element={<PortfolioDetails/>} />
       </Routes>
     <Footer/>
     </div>

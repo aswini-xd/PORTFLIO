@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 const projectDetails = {
   1: {
     title: "ORGANZE:-The Organic e-Commerce",
-    images: ["/portfolio1.jpg", "/portfolio1-2.jpg"], 
+    images: ["/PORTFLIO/portfolio1.jpg", "/PORTFLIO/portfolio1-2.jpg"], 
     category: "Web development",
     client: "portfolio",
     date: "07 June, 2025",
@@ -14,7 +14,7 @@ const projectDetails = {
   },
   2: {
     title: "UnnatiMitra – Growth, Learning & Giving",
-    images: ["/portfolio2-1.jpg", "/portfolio2-2.jpg","/portfolio2-3.jpg"], 
+    images: ["/PORTFLIO/portfolio2-1.jpg", "/PORTFLIO/portfolio2-2.jpg","/PORTFLIO/portfolio2-3.jpg"], 
     category: "Web Development",
     client: "Udyogimtra",
     date: "10 April, 2024",
@@ -24,7 +24,7 @@ const projectDetails = {
   },
   3: {
    title: "Heart Animation On Double-click",
-    images: ["/portfolio3.jpg", "/portfolio3-2.jpg"], 
+    images: ["/PORTFLIO/portfolio3.jpg", "/PORTFLIO/portfolio3-2.jpg"], 
     category: "Web Design",
     client: "portfolio",
     date: "10 April, 2024",
